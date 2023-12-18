@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/styles/style.css">
+    <script src="assets/scripts/script.js" defer></script>
+    <script src="https://code.highcharts.com/highcharts.js"></script>
+    <script src="https://code.highcharts.com/highcharts-more.js"></script>
+    <script src="https://code.highcharts.com/modules/exporting.js"></script>
+    <script src="https://code.highcharts.com/modules/accessibility.js"></script>
+    <title>✺ Portfolio - Margot Gitton</title>
+</head>
+
+<body>
+
+    <header>
+
+        <div id="menu">
+            <a href="#" img src="./assets/composants/menu_unfolding.png" alt="Unfolding Menu">
+        </div>
+        <nav id="navbar">
+            <img id="logo" src="./assets/composants/logo_perso.png" alt="Logo Gomar">
+            <ul id="menu">
+                <li> <a href="index.html#portfolio">Portfolio</a> </li>
+                <li> <a href="index.html#skills">Skills</a> </li>
+                <li> <a href="index.html#timeline">Time goes fast</a> </li>
+                <li> <a href="index.html#about">About me</a> </li>
+                <li> <a href="index.html#contact">Contact</a> </li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <div class='cursor' id="cursor"></div>
+
+    <!-- SECTION 1 : ACCUEIL -->
+
+    <main>
+
+
+        <section id="hello_world">
+
+            <h1>Full Stack <br>Web Dev <br>& Graphic <br>Designer</h1>
+
+            <img id="background-img-accueil" src="./assets/composants/img-accueil.png">
+
+            <div class="container-box">
+                <p>Looking to grow and searching for new challenges in the front-end & graphic design space</p>
+            </div>
+        </section>
+
+        <!-- SECTION 2 : PORTFOLIO -->
+
+        <section id="portfolio">
+            <h2>more interested about</h2>
+            <div class="carousel">
+                <button id="prevBtn" class="carousel-control">&#9665;</button>
+                <div class="carousel-container">
+                    <div class="carousel-items">
+                        <div class="carousel-item">
+                            <div class="card">
+                                <h3 class="card-title">Development</h3>
+                                <a href="#"><img src="./assets/composants/portfolio-dev.jpg" /></a>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="card">
+                                <h3 class="card-title">Everything</h3>
+                                <a href="#"><img src="./assets/composants/portfolio-all.jpg" /></a>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="card">
+                                <h3 class="card-title">Graphic Design</h3>
+                                <a href="#"><img src="./assets/composants/portfolio-design.jpg" /></a>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="card">
+                                <h3 class="card-title">Nail Art</h3>
+                                <a href="#"><img src="./assets/composants/portfolio-nails.jpg" /></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button id="nextBtn" class="carousel-control">&#9655;</button>
+            </div>
+        </section>
+
+        <img id="arrow-down" class="center" src="assets/composants/fleche.png">
+
+        <!-- AJOUTER ICI CHAQUE PARTIE DU PORTFOLIO -->
+
+        <!-- SECTION 3 : SKILLS -->
+
+        <section id="skills">
+            <h2>skillzzz</h2>
+
+            <div id="skills-chart" class="center" style="width:60%"></div>
+
+        </section>
+
+        <!-- SECTION 4 : TIMELINE -->
+
+        <section id="timeline">
+
+            <h2>timeline</h2>
+
+            <div class="bubble-container">
+                <div class="bubble-split">
+                    <div class="bubble-date">2018</div>
+                    <div class="bubble-title">BACHELOR IN GRAPHIC DESIGN</div>
+                </div>
+
+                <div class="bubble-split">
+                    <div class="bubble-date">2018</div>
+                    <div class="bubble-title">INTERNSHIP <b>FONDATION MARCEL HICTER</b></div>
+                </div>
+
+                <div class="bubble-split">
+                    <div class="bubble-date">2019</div>
+                    <div class="bubble-title">DESIGNER & PRINTER <b>3iDECO</b></div>
+                </div>
+
+                <div class="bubble-split">
+                    <div class="bubble-date">2021</div>
+                    <div class="bubble-title">SENIOR DESIGNER <b>FONTANA DESIGN</b></div>
+                </div>
+
+                <div class="bubble-split">
+                    <div class="bubble-date">2022</div>
+                    <div class="bubble-title">INDEPENDANT NAIL ARTIST <b>@JOLIES.GRIFFES</b></div>
+                </div>
+
+                <div class="bubble-split">
+                    <div class="bubble-date">2023</div>
+                    <div class="bubble-title">FORMATION WEB APPLICATION DEVELOPER <b>INTERFACE3</b></div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- SECTION 5: ABOUT ME -->
+
+        <section id="about">
+            <h2>nice <br>to <br>meet <br>you</h2>
+            <h4>Hello World!</h4>
+
+            <div id="icons-socialmedia">
+                <a href="#" img src="./assets/composants/email.png" alt="Send me an email"></a>
+                <a href="https://www.linkedin.com/in/margot-gitton/" img src="./assets/composants/email.png"
+                    alt="Visit my Linkedin profile"></a>
+                <a href="https://github.com/gomargomar3005/" img src="./assets/composants/github.png"
+                    alt="Have a look at my GitHub!"></a>
+            </div>
+
+
+            <div id="container-resume">
+                <h3 style="font-family: picnic">Download</h3> <h3><br>MY RESUME</h3>
+
+
+                <div id="image-container">
+                    <img class="normal" src="./assets/composants/smile_cv_download.png" alt="Image originale">
+                    <a href="./assets/composants/CV-Margot Gitton-2023.pdf">
+                        <img class="hovered" src="./assets/composants/download.png" alt="Image au survol">
+                    </a>
+                </div>
+
+                <h4>in a nutshell</h4>
+                <ul>
+                    <li>Holder of three diplomas in Advertising, Graphic Design and Web Development.</li>
+                    <li>I am now a professional web and graphic designer.</li>
+                    <li>I worked two years in a specialized big scale printing shop and graphic design services as
+                        the main graphic designer and shop front desk holder, a high responsability job.</li>
+                    <li>I worked one year in a digital design agency where I made animations, videos, branding,
+                        social
+                        media postings and strategy, UX design.</li>
+                    <li>I know how to handle stressful deadlines and many different types of demands.</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- SECTION 6 : CONTACT -->
+
+        <section id="contact">
+            <div id="form">
+
+                <div class="fish" id="fish"></div>
+                <div class="fish" id="fish2"></div>
+
+                <form id="waterform" method="post">
+
+                    <div class="formgroup" id="name-form">
+                        <label for="name">Name*</label>
+                        <br><input type="text" id="name" name="name" />
+                    </div>
+
+                    <div class="formgroup" id="email-form">
+                        <label for="email">E-mail*</label>
+                        <br><input type="email" id="email" name="email" />
+                    </div>
+
+                    <div class="formgroup" id="message-form">
+                        <label for="message">Your message</label>
+                        <br><textarea id="message" name="message"></textarea>
+                    </div>
+
+                    <input type="submit" value="Send !" />
+                </form>
+            </div>
+        </section>
+
+    </main>
+
+</body>
+
+</html>
